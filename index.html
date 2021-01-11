@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js_scripts.js"></script>
+
+    <!-- JQuery UI-->
+    <link href="jquery-ui/jquery-ui.css" rel="stylesheet" />
+
+    <title>Базавлюк Ольга ДЗ_10</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light text-light">
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://im0-tub-ru.yandex.net/i?id=a1667d087953112f8f91ab5d4cb61124&n=13"
+          width="50"
+          height="50"
+          class="d-inline-block align-top"
+          alt="logo"
+        />
+        jQuery
+      </a>
+      <a href="https://github.com/Olga2001/LR10_Veb.git">Ссылка на Git</a>
+    </nav>
+    <div class="jumbotron jumbotron-fluid text-center bg-dark text-light">
+      <h1>Пример работы jQuery</h1>
+      <p>Данная страница демонстрирует работу jQuery и jQuery UI</p>
+    </div>
+    <div class="container">
+      <h3>Демонстрация .find и .css</h3>
+      <p id="find_ex">
+        <span id="children">Пример работы</span> find
+        <span id="hover_ex">(наведите на этот текст)</span>
+      </p>
+    </div>
+    <div class="container">
+      <h3>Демонстрация .filter и .toggleClass</h3>
+      <button id="toggle_class_button">Нажмите на меня</button>
+      <span class="toggle_class_ex">Пример работы toggleClass и filter</span>
+    </div>
+    <div class="container">
+      <h3>Демонстрация .addClass и .click</h3>
+      <button id="addClass_button">Нажмите на меня</button>
+      <p id="addClass_ex">Пример работы addClass</p>
+    </div>
+    <div class="container">
+      <h3>Демонстрация .attr и .prop и .html</h3>
+      <button id="attr_button">Нажмите на меня для демонстрации .attr</button>
+      <p id="attr_ex">Пример работы attr</p>
+      <p>Нажмите на галочку снизу для демонстрации .prop:</p>
+      <input id="check1" type="checkbox" checked="checked" />
+      <p id="prop_ex">Этот параграф будет меняться</p>
+    </div>
+    <div class="container">
+      <h3>Демонстрация .trigger, .hide и .show</h3>
+      <button id="trigger_button">Нажмите на меня, чтобы скрыть пример</button>
+      <br />
+      <button id="trigger_button_2">
+        Нажмите на меня, чтобы показать скрытый пример
+      </button>
+      <p style="color: rgb(132, 0, 255); width: max-content" id="trigger_hover">
+        Наведитесь на меня, чтобы запустить триггер на скрытие текста
+      </p>
+      <p id="trigger_ex">Пример работы trigger, hide и show</p>
+    </div>
+    <div class="container">
+      <h3>Демонстрация .wrap, .prepend и .append</h3>
+      <button id="wrap_button">Нажмите на меня</button>
+      <p id="wrap_ex">wrap, prepend и append</p>
+    </div>
+    <div class="container">
+      <h3>Демонстрация работы jQuery UI:</h3>
+      <div
+        id="draggable"
+        style="border: 3px black solid; width: 300px; height: 300px"
+      >
+        <p>Перетащи меня.</p>
+      </div>
+      <div id="accordion">
+        <h3>Первая часть аккордеона</h3>
+        <div>
+          <p>
+            Лишь тот способен добрым быть, кому пришлось от злости выть. Лишь
+            тот узнает дружбы цену, кто испытал друзей измену. И лишь тому
+            любовь дана, кто ненависть познал сполна.
+          </p>
+        </div>
+        <h3>Вторая часть аккордеона</h3>
+        <div>
+          <p>
+            За одну ночь нельзя изменить жизнь. Но за одну ночь можно изменить
+            мысли, которые навсегда изменят твою жизнь.
+          </p>
+        </div>
+        <h3>Вторая часть аккордеона</h3>
+        <div>
+          <p>
+            Если тебе тяжело, значит ты поднимаешься в гору. Если тебе легко,
+            значит ты летишь в пропасть.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="jquery-ui/external/jquery/jquery.js"></script>
+    <script src="jquery-ui/jquery-ui.js"></script>
+  </body>
+</html>

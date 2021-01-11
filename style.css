@@ -1,0 +1,18 @@
+.blue_class{
+    color: rgb(0, 204, 255);
+    font-size: larger;
+}
+.red_class{
+    color: rgb(209, 66, 41);
+    font-size: smaller;
+}
+#attr_ex{
+    color: rgb(153, 0, 255);
+}
+#attr_ex_2{
+    color: rgb(211, 6, 184);
+}
+.wrap_class > p{
+    color: rgb(43, 226, 125);
+    font-size: larger;
+}
